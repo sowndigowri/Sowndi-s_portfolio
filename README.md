@@ -6,7 +6,7 @@ This repository contains a collection of my Machine Learning and AI projects dev
 
 
 # Project 1: Air Quality Index Prediction
-link:
+link:https://github.com/sowndigowri/Air-quality
 
 Implemented multiple regression models and compared performance
 Performed feature scaling and importance analysis
