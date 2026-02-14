@@ -22,7 +22,7 @@ Built prediction system to identify high-risk customers
 Useful for telecom, banking, and subscription businesses
 
 # Project 3:Fake Review Detection 
-link:
+link:https://github.com/sowndigowri/Fake-review-Detection
 
 Implemented NLP preprocessing pipeline for text cleaning
 Used TF-IDF vectorization for feature extraction
