@@ -27,14 +27,14 @@ Built prediction system for real-time review classification
 Applicable to e-commerce and social media moderation
 
 # Project 4:Cloud Seeding Prediction
-link
+link:https://github.com/sowndigowri/-Intelligent-Cloud-Seeding-Decision-System
 Analyzed weather parameters affecting rainfall formation
 Used ML models to predict seeding suitability conditions
 Visualized atmospheric trends for decision making
 Useful for climate research and rainfall enhancement programs
 
 # Project 5: Drought Prediction System 
-link
+link:
 Used historical climate data for drought risk prediction
 Applied regression/classification models for forecasting
 Built prediction workflow for agriculture planning
