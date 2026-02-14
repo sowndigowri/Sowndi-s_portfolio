@@ -11,7 +11,7 @@ Performed feature scaling and importance analysis
 Designed prediction function for real-time AQI estimation
 Suitable for smart city and environmental monitoring applications
 
-#Project 2: Customer Churn Prediction
+# Project 2: Customer Churn Prediction
 Applied multiple classification algorithms and evaluated with ROC-AUC
 Performed feature engineering on customer behavior data
 Built prediction system to identify high-risk customers
