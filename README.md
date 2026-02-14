@@ -23,13 +23,13 @@ Used TF-IDF vectorization for feature extraction
 Built prediction system for real-time review classification
 Applicable to e-commerce and social media moderation
 
-# Project 4:Cloud Seeding Prediction — Add These Points
+# Project 4:Cloud Seeding Prediction 
 Analyzed weather parameters affecting rainfall formation
 Used ML models to predict seeding suitability conditions
 Visualized atmospheric trends for decision making
 Useful for climate research and rainfall enhancement programs
 
-# Project 5: Drought Prediction System — Add These Points
+# Project 5: Drought Prediction System 
 Used historical climate data for drought risk prediction
 Applied regression/classification models for forecasting
 Built prediction workflow for agriculture planning
