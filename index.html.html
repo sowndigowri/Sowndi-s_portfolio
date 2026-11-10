@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sowndaryagowri N · AI &amp; Machine Learning Engineer</title>
+<meta name="description" content="Sowndaryagowri N is an AI and Machine Learning Engineer (B.Tech, Artificial Intelligence and Data Science) building predictive models, NLP systems and data-driven applications in Python.">
+<meta property="og:title" content="Sowndaryagowri N · AI &amp; Machine Learning Engineer">
+<meta property="og:description" content="Machine learning, Python development and data analytics. Selected projects, research and experience.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1020'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial,sans-serif' font-weight='700' text-anchor='middle' fill='%236ea0ff'%3ESN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a1020;--bg2:#0f172b;--card:#111b31;--line:#1f2d4a;--tx:#eef2fa;--mu:#98a6c3;--ac:#6ea0ff;--ac2:#3a6ee0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f7f9fc;--bg2:#edf1f8;--card:#fff;--line:#d9e1ef;--tx:#0e1830;--mu:#506080;--ac:#2656d3;--ac2:#1d44aa}}
+:root[data-theme="light"]{--bg:#f7f9fc;--bg2:#edf1f8;--card:#fff;--line:#d9e1ef;--tx:#0e1830;--mu:#506080;--ac:#2656d3;--ac2:#1d44aa}
+:root[data-theme="dark"]{--bg:#0a1020;--bg2:#0f172b;--card:#111b31;--line:#1f2d4a;--tx:#eef2fa;--mu:#98a6c3;--ac:#6ea0ff;--ac2:#3a6ee0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.7 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.w{max-width:1120px;margin:0 auto;padding:0 28px}
+.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:600;font-size:15px;letter-spacing:.01em}.logo i{font-style:normal;color:var(--ac)}
+nav{display:flex;gap:28px;font-size:13.5px;color:var(--mu)}nav a{transition:.2s}nav a:hover{color:var(--tx)}
+.cta{font-size:13px;padding:8px 16px;border:1px solid var(--line);border-radius:6px;transition:.2s}.cta:hover{border-color:var(--ac)}
+section{padding:104px 0;border-top:1px solid var(--line)}
+.lab{display:flex;align-items:center;gap:14px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ac);margin-bottom:18px}
+.lab:after{content:"";height:1px;width:56px;background:var(--line)}
+h2{font-size:clamp(28px,3.6vw,38px);font-weight:600;letter-spacing:-.02em;line-height:1.2;margin:0 0 48px;max-width:720px}
+#hero{border:0;padding:112px 0 88px}
+.hg{display:grid;grid-template-columns:1.55fr 1fr;gap:64px;align-items:end}
+.st{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;color:var(--mu);border:1px solid var(--line);border-radius:999px;padding:6px 14px;margin-bottom:28px}
+.st:before{content:"";width:7px;height:7px;border-radius:50%;background:#3ecf8e}
+h1{font-size:clamp(44px,7vw,80px);font-weight:700;letter-spacing:-.035em;line-height:1.02;margin:0 0 22px}
+.hd{font-size:clamp(17px,2vw,21px);color:var(--ac);font-weight:500;margin:0 0 22px}
+.lead{max-width:580px;color:var(--mu);font-size:17.5px;margin:0 0 38px}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:6px;border:1px solid var(--line);font:500 14px Inter,sans-serif;transition:.2s;cursor:pointer;background:transparent;color:var(--tx)}
+.btn:hover{border-color:var(--ac);transform:translateY(-1px)}
+.btn.p{background:var(--ac2);border-color:var(--ac2);color:#fff}.btn.p:hover{background:var(--ac);border-color:var(--ac)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:28px}
+.panel h3{margin:0 0 20px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);font-weight:500}
+.panel dl{margin:0}.panel dt{font-size:12px;color:var(--mu);margin-top:16px}.panel dd{margin:2px 0 0;font-size:14.5px;font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:72px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.stats div{padding:24px 28px;border-right:1px solid var(--line)}.stats div:last-child{border:0}
+.stats b{display:block;font-size:30px;font-weight:600;letter-spacing:-.02em}.stats span{font-size:13px;color:var(--mu)}
+.ab{display:grid;grid-template-columns:1.4fr 1fr;gap:72px}
+.ab p{margin:0 0 20px;color:var(--mu);font-size:17px}.ab p:first-child{color:var(--tx);font-size:19px;line-height:1.6}
+.focus{border-top:1px solid var(--line)}.focus div{padding:18px 0;border-bottom:1px solid var(--line)}.focus b{display:block;font-weight:600;font-size:15px}.focus span{font-size:14px;color:var(--mu)}
+.sk{border-top:1px solid var(--line)}
+.sr{display:grid;grid-template-columns:240px 1fr;gap:32px;padding:22px 0;border-bottom:1px solid var(--line)}
+.sr h3{margin:0;font-size:15px;font-weight:600}
+.sr p{margin:0;color:var(--mu);font-size:15px}.sr p span{color:var(--tx)}.sr p i{font-style:normal;color:var(--line);margin:0 8px}
+.pl{border-top:1px solid var(--line)}
+.pr{display:grid;grid-template-columns:56px 1.3fr 1fr 28px;gap:24px;align-items:center;padding:26px 8px;border-bottom:1px solid var(--line);width:100%;background:none;border-left:0;border-right:0;border-top:0;color:inherit;font:inherit;text-align:left;cursor:pointer;transition:.25s}
+.pr:hover{background:var(--bg2);padding-left:20px}
+.pr .n{font-size:13px;color:var(--mu)}.pr h3{margin:0;font-size:19px;font-weight:600;letter-spacing:-.01em}.pr small{display:block;color:var(--mu);font-size:13.5px;margin-top:3px}
+.pr .t{font-size:12.5px;color:var(--mu)}.pr .ar{color:var(--ac);font-size:18px;transition:.25s}.pr:hover .ar{transform:translateX(4px)}
+.tl{border-left:1px solid var(--line);padding:2px 0 2px 36px;position:relative;max-width:780px}
+.tl:before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 5px color-mix(in srgb,var(--ac) 18%,transparent)}
+.tl h3{margin:0;font-size:21px;font-weight:600;letter-spacing:-.01em}.tl .m{font-size:13px;color:var(--ac);margin:4px 0 18px}
+.tl ul,.mb ul{margin:0;padding-left:18px;color:var(--mu)}.tl li,.mb li{margin-bottom:9px}
+.pub{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:40px;max-width:900px}
+.pub h3{font-size:24px;font-weight:600;line-height:1.35;letter-spacing:-.015em;margin:12px 0 14px}
+.pub p{margin:0;color:var(--mu)}
+.badge{font-size:12px;border:1px solid var(--ac);color:var(--ac);border-radius:999px;padding:5px 14px;white-space:nowrap}
+.ed{display:grid;grid-template-columns:1fr 1.3fr;gap:72px}
+.ed h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);font-weight:500;margin:0 0 8px}
+.ed .it{padding:18px 0;border-bottom:1px solid var(--line)}.ed .it:first-of-type{border-top:1px solid var(--line)}
+.ed b{display:block;font-weight:600}.ed span{color:var(--mu);font-size:14.5px}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+.ct p{color:var(--mu);font-size:17px;margin:0 0 28px}
+form{display:grid;gap:12px}
+input,textarea{width:100%;padding:13px 15px;background:var(--card);border:1px solid var(--line);border-radius:6px;color:var(--tx);font:inherit;font-size:15px}
+input:focus,textarea:focus{outline:none;border-color:var(--ac)}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--mu);font-size:13px}footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+dialog{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:16px;max-width:720px;width:calc(100% - 32px);padding:0;max-height:88vh}
+dialog::backdrop{background:rgba(4,8,18,.72)}
+.mb{padding:36px}.mb h3{font-size:28px;font-weight:600;letter-spacing:-.02em;margin:0 0 20px;line-height:1.25}
+.mb h4{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ac);font-weight:500;margin:26px 0 10px}
+.mb p{color:var(--mu);margin:0}
+.tg{display:flex;flex-wrap:wrap;gap:8px}.tg span{font-size:12.5px;padding:4px 11px;border-radius:5px;background:var(--bg2);border:1px solid var(--line)}
+.x{float:right;background:none;border:0;color:var(--mu);font-size:28px;cursor:pointer;line-height:1}
+.rv{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.rv.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (max-width:860px){nav{display:none}.hg,.ab,.ed,.ct{grid-template-columns:1fr;gap:40px}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}.sr{grid-template-columns:1fr;gap:8px}.pr{grid-template-columns:36px 1fr 20px;gap:14px}.pr .t{display:none}.pub{grid-template-columns:1fr;padding:28px}section{padding:76px 0}}
+</style>
+</head>
+<body>
+<header><div class="w"><a class="logo" href="#hero">Sowndaryagowri <i>N</i></a>
+<nav><a href="#about">About</a><a href="#skills">Expertise</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#contact">Contact</a></nav>
+<a class="cta" href="mailto:sowndigowri@gmail.com">Get in touch</a></div></header>
+
+<section id="hero"><div class="w"><div class="hg"><div>
+<div class="st">Open to full-time opportunities</div>
+<h1>Sowndaryagowri N</h1>
+<p class="hd">AI &amp; Machine Learning Engineer | Data Analytics Enthusiast</p>
+<p class="lead">Engineering intelligent solutions through machine learning, Python development, and data-driven innovation. Passionate about transforming real-world problems into practical technology solutions.</p>
+<div class="row"><a class="btn p" href="#projects">Explore My Work</a><a class="btn" href="mailto:sowndigowri@gmail.com?subject=Resume%20request">Request Resume</a><a class="btn" href="https://github.com/sowndigowri/" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/sowndarya-gowri-217105266" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="mailto:sowndigowri@gmail.com">Email Me</a></div></div>
+<aside class="panel"><h3 class="mono">Profile</h3><dl>
+<dt>Education</dt><dd>B.Tech, Artificial Intelligence and Data Science</dd>
+<dt>Core stack</dt><dd>Python · SQL · Scikit-learn · TensorFlow/Keras</dd>
+<dt>Specialisations</dt><dd>Machine Learning · NLP · Data Analytics</dd>
+<dt>Publication</dt><dd>IJSR, accepted 1 April 2026</dd></dl></aside></div>
+<div class="stats"><div><b>6</b><span>Featured projects</span></div><div><b>1</b><span>Research publication</span></div><div><b>3</b><span>Month industry internship</span></div><div><b>3</b><span>Professional certifications</span></div></div>
+</div></section>
+
+<section id="about"><div class="w rv"><div class="lab mono">01 · About</div><h2>Applied machine learning, delivered from data to deployment.</h2>
+<div class="ab"><div>
+<p>I am an Artificial Intelligence and Data Science engineer with hands-on experience building machine learning systems, from data preparation and modelling through to working applications.</p>
+<p>My B.Tech in Artificial Intelligence and Data Science at Jansons Institute of Technology provided the foundation. I have applied it to predictive modelling, deep learning, natural language processing and Flask-based applications, using Python, SQL and the core data science stack.</p>
+<p>I focus on building intelligent applications that address real-world problems, and I am seeking a full-time role in the IT industry where I can contribute to AI and data-driven products.</p></div>
+<div class="focus"><div><b>Machine Learning</b><span>Classification, regression and deep learning workflows</span></div><div><b>Data Analytics</b><span>EDA, KPI reporting and dashboards with Power BI</span></div><div><b>Application Development</b><span>Flask services, REST API integration, Streamlit</span></div></div></div></div></section>
+
+<section id="skills"><div class="w rv"><div class="lab mono">02 · Technical Expertise</div><h2>A focused toolkit across modelling, analytics and development.</h2>
+<div class="sk">
+<div class="sr"><h3>Programming</h3><p><span>Python</span><i>/</i><span>SQL</span></p></div>
+<div class="sr"><h3>AI &amp; Machine Learning</h3><p><span>Scikit-learn</span><i>/</i><span>TensorFlow/Keras</span><i>/</i><span>Machine Learning</span><i>/</i><span>Deep Learning</span></p></div>
+<div class="sr"><h3>Data Analytics</h3><p><span>Power BI</span><i>/</i><span>Advanced Excel</span><i>/</i><span>Power Query</span><i>/</i><span>DAX</span><i>/</i><span>Pandas</span><i>/</i><span>NumPy</span><i>/</i><span>EDA</span><i>/</i><span>KPI Reporting</span></p></div>
+<div class="sr"><h3>Visualization</h3><p><span>Matplotlib</span><i>/</i><span>Seaborn</span><i>/</i><span>Plotly</span></p></div>
+<div class="sr"><h3>Development</h3><p><span>Flask</span><i>/</i><span>Streamlit</span><i>/</i><span>REST APIs</span></p></div>
+<div class="sr"><h3>Databases</h3><p><span>MySQL</span><i>/</i><span>SQLite</span></p></div>
+<div class="sr"><h3>Tools</h3><p><span>Git</span><i>/</i><span>GitHub</span><i>/</i><span>Jupyter Notebook</span><i>/</i><span>VS Code</span></p></div>
+</div></div></section>
+
+<section id="projects"><div class="w"><div class="lab mono">03 · Selected Engineering Projects</div><h2>Case studies in machine learning and applied AI.</h2>
+<div class="pl" id="pl"></div></div></section>
+
+<section id="experience"><div class="w rv"><div class="lab mono">04 · Professional Experience</div><h2>Industry experience building AI-enabled applications.</h2>
+<div class="tl"><h3>Intern, Iyarkai Tech Lab</h3><div class="m mono">3-month internship</div>
+<ul><li>Developed a voice-assisted AI chatbot using Flask and Generative AI APIs.</li><li>Integrated external AI APIs into the application backend.</li><li>Debugged and refined application behaviour as part of day-to-day development work.</li></ul></div></div></section>
+
+<section id="research"><div class="w rv"><div class="lab mono">05 · Research &amp; Publications</div><h2>Peer-reviewed research in digital wellbeing analytics.</h2>
+<div class="pub"><div><div class="mono" style="font-size:12px;color:var(--mu);letter-spacing:.1em">INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH (IJSR)</div>
+<h3>AWARE-AI: An Intelligent Machine Learning Framework for Digital Wellbeing Risk Analysis and Personalized Intervention</h3>
+<p>Accepted for publication on 1 April 2026.</p></div><span class="badge mono">Accepted</span></div></div></section>
+
+<section id="education"><div class="w rv"><div class="lab mono">06 · Education &amp; Certifications</div><h2>Academic foundation and continued learning.</h2>
+<div class="ed"><div><h3 class="mono">Education</h3><div class="it"><b>B.Tech, Artificial Intelligence and Data Science</b><span>Jansons Institute of Technology</span></div></div>
+<div><h3 class="mono">Certifications</h3><div class="it"><b>Machine Learning</b><span>Faith Group of Companies</span></div><div class="it"><b>Python and Data Structures Bootcamp</b><span>Jansons Institute of Technology</span></div><div class="it"><b>Prompt Engineering</b><span>Infomatronics</span></div></div></div></div></section>
+
+<section id="contact"><div class="w rv"><div class="lab mono">07 · Contact</div><h2>Let’s discuss how I can contribute to your team.</h2>
+<div class="ct"><div><p>I am actively seeking full-time opportunities in AI, machine learning and data-driven engineering. Recruiters and engineering teams are welcome to reach out.</p>
+<div class="row"><a class="btn p" href="mailto:sowndigowri@gmail.com">sowndigowri@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/sowndarya-gowri-217105266" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/sowndigowri/" target="_blank" rel="noopener">GitHub</a></div></div>
+<form id="f"><input id="n" placeholder="Name" required><input id="e" type="email" placeholder="Email" required><textarea id="m" rows="5" placeholder="How can I help?" required></textarea><button class="btn p" type="submit" style="justify-content:center">Send message</button></form></div></div></section>
+
+<footer><div class="w"><span>© 2026 Sowndaryagowri N</span><span class="mono">AI &amp; Machine Learning Engineer</span></div></footer>
+
+<dialog id="d"><div class="mb"><button class="x" aria-label="Close" onclick="d.close()">×</button><div id="dc"></div></div></dialog>
+
+<script>
+var G="https://github.com/sowndigowri/";
+var P=[
+{t:"AWARE-AI: Digital Wellbeing Analysis and Recommendation Engine",k:"Research · Machine Learning",o:"A machine learning framework that analyses digital usage patterns and generates recommendations. It is the subject of the research paper accepted by IJSR on 1 April 2026.",pr:"Identifying digital wellbeing risk from usage behaviour and translating it into personalised interventions.",c:["Analysed digital usage patterns to assess wellbeing risk","Generated personalised recommendations from model output","Documented the framework as a research publication"],s:["Python","Machine Learning"],l:G,ll:"View GitHub profile"},
+{t:"Intelligent Cloud Seeding Decision System",k:"Deep Learning · Reinforcement Learning",o:"An AI system that predicts cloud types from images and decides whether cloud seeding is feasible, combining machine learning, deep learning and reinforcement learning.",pr:"Supporting data-driven decisions on the feasibility of cloud seeding using cloud imagery and weather data.",c:["Built cloud-type prediction from images","Developed decision logic using reinforcement learning","Predicted seeding opportunities from weather data"],s:["Python","Deep Learning","Reinforcement Learning","Jupyter Notebook"],l:G+"-Intelligent-Cloud-Seeding-Decision-System",ll:"View repository"},
+{t:"Voice-Assisted AI Chatbot",k:"Flask · Generative AI",o:"A voice-assisted conversational application built with Flask and Generative AI APIs, developed during my internship at Iyarkai Tech Lab.",pr:"Enabling natural, voice-driven interaction with an AI assistant through a web application.",c:["Developed the Flask application","Integrated Generative AI APIs","Debugged and refined application behaviour"],s:["Python","Flask","Generative AI APIs","REST APIs"],l:G,ll:"View GitHub profile"},
+{t:"Customer Churn Prediction",k:"Machine Learning · Classification",o:"An end-to-end machine learning pipeline that predicts customer churn from customer data.",pr:"Identifying customers at risk of leaving so that retention efforts can be targeted.",c:["Implemented data preprocessing and feature engineering","Trained and compared classification models","Evaluated using accuracy, precision, recall, F1-score and ROC-AUC"],s:["Python","Scikit-learn","Pandas","Jupyter Notebook"],l:G+"Customer-Churn-Prediction",ll:"View repository"},
+{t:"Air Quality Prediction",k:"Machine Learning · Regression",o:"A machine learning model that predicts the Air Quality Index (AQI) from pollutant data and supports predictions for new inputs.",pr:"Estimating air quality from measured pollutant levels.",c:["Implemented preprocessing and feature scaling","Trained regression models","Evaluated using MAE, RMSE and R²"],s:["Python","Scikit-learn","Jupyter Notebook"],l:G+"Air-quality",ll:"View repository"},
+{t:"Fake Review Detection",k:"Natural Language Processing",o:"An NLP and machine learning system that classifies online reviews as fake or genuine.",pr:"Distinguishing genuine online reviews from fake ones to support trust in review platforms.",c:["Applied NLP techniques to review text","Trained machine learning classifiers for detection"],s:["Python","NLP","Machine Learning","Jupyter Notebook"],l:G+"Fake-review-Detection",ll:"View repository"}];
+var g=document.getElementById("pl"),d=document.getElementById("d"),dc=document.getElementById("dc");
+P.forEach(function(p,i){var b=document.createElement("button");b.className="pr rv";b.innerHTML="<span class='n mono'>0"+(i+1)+"</span><div><h3>"+p.t+"</h3><small>"+p.k+"</small></div><span class='t mono'>"+p.s.slice(0,3).join(" · ")+"</span><span class='ar'>→</span>";b.onclick=function(){
+dc.innerHTML="<div class='lab mono'>"+p.k+"</div><h3>"+p.t+"</h3><h4>Overview</h4><p>"+p.o+"</p><h4>Problem</h4><p>"+p.pr+"</p><h4>Engineering contributions</h4><ul>"+p.c.map(function(x){return"<li>"+x+"</li>"}).join("")+"</ul><h4>Technologies</h4><div class='tg'>"+p.s.map(function(x){return"<span>"+x+"</span>"}).join("")+"</div><div class='row' style='margin-top:28px'><a class='btn p' target='_blank' rel='noopener' href='"+p.l+"'>"+p.ll+" ↗</a></div>";d.showModal()};g.appendChild(b)});
+d.addEventListener("click",function(e){if(e.target===d)d.close()});
+document.getElementById("f").onsubmit=function(e){e.preventDefault();location.href="mailto:sowndigowri@gmail.com?subject="+encodeURIComponent("Portfolio enquiry from "+n.value)+"&body="+encodeURIComponent(m.value+"\n\n"+n.value+" ("+document.getElementById("e").value+")")};
+var io=new IntersectionObserver(function(a){a.forEach(function(x){if(x.isIntersecting){x.target.classList.add("on");io.unobserve(x.target)}})},{threshold:.08});
+document.querySelectorAll(".rv").forEach(function(x){io.observe(x)});
+</script>
+</body>
+</html>
